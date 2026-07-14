@@ -1,11 +1,10 @@
 # CircuitScheduleViewer
-# Mota Plotter
 
-Mota Plotter is a Python tool (designed for Google Colab or Jupyter)
-to visualize the behavior and configuration of 'Clickiemota' devices via the Clickie API.
+This is a Python tool (designed for Google Colab or Jupyter)
+to visualize the behavior and configuration of gateway devices via API.
 
 Its main functions are:
-1.  **Fetch Configuration:** Connects to the Clickie API to retrieve the
+1.  **Fetch Configuration:** Connects to the API to retrieve the
     active JSON configuration for a specified device.
 2.  **Parse & Plot Behavior:** Interprets the JSON schedule and plots the
     *actual* ON/OFF state of each relay for a selected date range.
